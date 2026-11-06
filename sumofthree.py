@@ -7,3 +7,8 @@ def sum_of_three_arrays(a: list[float], b: list[float], c: list[float]) -> list[
     if not len(a) == len(b) == len(c):
         raise ValueError("all three arrays must have the same length")
     return [x + y + z for x, y, z in zip(a, b, c)]
+
+
+if __name__ == "__main__":
+    result = sum_of_three_arrays([1, 2, 3], [4, 5, 6], [7, 8, 9])
+    print(result)
