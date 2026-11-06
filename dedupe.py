@@ -1,7 +1,7 @@
 """Small helpers for cleaning up lists."""
 
 
-
+#hellooo my name is nikhil pandey 
 
 def remove_blank_strings(items: list[str]) -> list[str]:
     """Return a new list without empty or whitespace-only strings.
